@@ -1,5 +1,4 @@
 class Prototype < ApplicationRecord
-  has_one_attached :images
   belongs_to :user
   has_one_attached :image
   has_many :comments, dependent: :destroy
